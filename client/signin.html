@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <h2>Login</h2>
+    <form class="form-inline" role="form" action="/signin" method="post">
+      <div>
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" class="form-control">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" class="form-control">
+      </div>
+      <div>
+        <input type="submit" value="Login" class="btn btn-default">
+      </div>
+    </form>
+    <p>
+      <a href="/signup">Create an Account</a>
+      <br>
+      <a href="/github">Log in with Github</a>
+    </p>
+  </body>
+</html>
